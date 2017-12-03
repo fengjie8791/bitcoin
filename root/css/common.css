@@ -1,0 +1,302 @@
+* {
+	box-sizing:border-box;
+}
+
+
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    word-wrap: break-word;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+body {
+	margin:0;
+}
+
+.row:after{
+	clear:both;
+	content:'';
+	display: table;
+}
+
+nav:after{
+  clear:both;
+  content:'';
+  display: table;
+}
+
+head:after{
+  clear:both;
+  content:'';
+  display: table;
+}
+
+section:after{
+	clear:both;
+	content:'';
+	display: table;
+}
+footer{
+	background-color: #1a1c1e;
+	padding:60px 0px;
+	
+}
+footer:after{
+	clear:both;
+	content:'';
+	display: table;
+}
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.bg-img-setting{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.display-none{
+  display: none;
+}
+
+.display-block{
+  display: block;
+}
+.position-left{
+  left:-100%;
+}
+.position-middle{
+  left:0;
+}
+
+.height-100{
+	height: 200px
+}
+.section-title{
+  text-align: center;
+  padding: 120px 0 30px 0;
+  margin-bottom: 30px;
+  /*border-bottom: 1px solid #888888;*/
+}
+
+.section-subtitle{
+  text-align: center;
+  padding: 0px 0 40px 0;
+}
+
+.section-subtitle-top-border{
+  padding: 60px 0 40px 0;
+  border-top: 1px solid #888888;
+}
+
+
+.font-color-white{
+  color:#ffffff;
+}
+
+.font-color-ccc{
+  color:#cccccc;
+}
+
+.font-color-666{
+  color:#666666;
+}
+
+
+
+nav ul{
+	list-style-type:none; 
+	margin: 0;
+	padding: 0;
+}
+
+
+nav ul:after {
+	content:'';
+	display:table;
+	clear:both;
+}
+
+a {
+	text-decoration:none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.btn{
+	padding: 14px 20px;
+	background-color:#bc1515;
+	cursor: pointer;
+	text-align: center;
+	border: 3px solid rgba(0, 0, 0, 0);
+	border-radius: 2em;
+	margin-top: 40px;
+	outline:none;
+	-webkit-appearance: none;
+	transition: all .3s;
+	margin-top:100px;
+}
+
+.btn-li{
+	list-style-type:none; 
+	margin-top: 80px;	
+}
+
+.map-btn{
+	padding: 6px 10px;
+	background-color:#1974d2;
+	cursor: pointer;
+	text-align: center;
+	border: 3px solid rgba(0, 0, 0, 0);
+	border-radius: 10px;
+	margin-top: 40px;
+	outline:none;
+	-webkit-appearance: none;
+	transition: all .3s;
+	margin-top:100px;
+}
+
+.map-btn-li-1{
+	list-style-type:none; 
+	margin-top: 6px;
+	padding
+}
+
+.map-btn-li-1 p{
+	margin:0;
+}
+
+.map-btn-li-2{
+	list-style-type:none; 
+	margin-top: 6px;
+	padding
+}
+
+.map-btn-li-2 p{
+	margin:0;
+}
+
+.btn:hover{
+	background-color: rgba(0,0,0,0);
+	border: 3px solid #bc1515;
+	color:#bc1515;
+}
+
+.hellowords-box .btn:hover{
+	background-color: rgba(0,0,0,0);
+	border: 3px solid #ffffff;
+	color:#ffffff;
+}
+
+.bu-ct-list-hover{
+	background-color: #74abe4;
+}
+
+.padding-general{
+	padding: 200px 100px;
+}
+
+
+.hvr-underline-from-left:before{
+	background: #1974d2;
+}
+
+.display-type-desktop{
+	display: block;
+}
+
+.display-type-mobile{
+	display: none;
+}
+
+.h3-div{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.animation{
+	opacity: 1;
+	position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: all .6s;
+}
+
+.fade-in-up{
+	opacity: 0;
+	top:60px;
+}
+
+.fade-in-left{
+	opacity: 0;
+	left:-60px;
+}
+
+.fade-in-right{
+	opacity: 0;
+	left:60px;
+}
+
+
+
+
+
+/* Medium State */
+
+@media (max-width:1280px) {
+
+	.padding-general{
+		padding: 140px 60px;
+	}
+
+
+}
+
+/* Small State */
+@media (max-width:760px) {
+
+	.display-type-desktop{
+		display: none;
+	}
+
+	.display-type-mobile{
+		display: block;
+	}
+
+	.padding-general{
+		padding: 100px 20px;
+	}
+
+}
+
+
+
