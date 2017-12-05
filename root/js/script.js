@@ -42,4 +42,22 @@ $(function(){
 
 	})
 
+	// taggle pop window
+	$("#buy_btn").on("click",function(){		
+		$(".pop").addClass("display-block");
+		$(".pop").removeClass("display-none");
+	})
+
+	$("#buy_c_btn").on("click",function(){		
+		$(".pop").removeClass("display-block");
+		$(".pop").addClass("display-none");
+	})
+
+	$("#confirm_btn").on("click",function(){		
+		$(".pop-confirm").removeClass("display-none");
+		$(".pop-confirm").addClass("display-block");
+		$(".pop").addClass("display-none");
+		$(".pop").removeClass("display-block");
+	})
+
 })

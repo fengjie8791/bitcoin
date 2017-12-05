@@ -62,12 +62,24 @@ footer:after{
 	content:'';
 	display: table;
 }
+.row:after{
+	clear:both;
+	content:'';
+	display: table;
+}
+
+.content-box{
+	padding: 5px;
+	height: 200px;
+}
 
 .block{
 	background-color: #fff;
 	border-radius: 8px;
 	margin-bottom: 20px;
-	/*padding:20px;*/
+	width: 100%;
+	height: inherit;
+	height: 190px;
 }
 
 .disable-select {
@@ -85,11 +97,11 @@ footer:after{
 
 
 .display-none{
-  display: none;
+  display: none !important;
 }
 
 .display-block{
-  display: block;
+  display: block !important;
 }
 .position-left{
   left:-100%;
@@ -129,6 +141,11 @@ footer:after{
 
 .font-color-666{
   color:#666666;
+}
+
+.hr-light{
+	margin: 0;
+	border: solid .5px #aaa;
 }
 
 
