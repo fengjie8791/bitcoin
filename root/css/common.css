@@ -26,6 +26,7 @@ button:focus {
 
 body {
 	margin:0;
+	background-color: #ccc
 }
 
 .row:after{
@@ -60,6 +61,13 @@ footer:after{
 	clear:both;
 	content:'';
 	display: table;
+}
+
+.block{
+	background-color: #fff;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	/*padding:20px;*/
 }
 
 .disable-select {
